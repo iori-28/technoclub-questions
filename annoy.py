@@ -10,7 +10,7 @@ bisakah kamu membantu saya untuk memecahkan misteri ini?
 """
 # modifikasi code dibawah tanpa mengubah variabel my dan print
 my = 0x0
-if (my):
+if (my ==0): 
     print("Misteri Terpecahkan")
 else:
     print("Misteri Belum Terpecahkan")

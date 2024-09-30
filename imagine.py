@@ -21,3 +21,9 @@ Kamu boleh menyeberang jembatan
 """
 weight = 90
 # lanjutkan code dibawah ini
+weight = 90
+
+if weight < 75:
+    print("Kamu tidak boleh menyeberang jembatan")
+else:
+    print("Kamu boleh menyeberang jembatan")

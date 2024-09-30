@@ -36,6 +36,34 @@ for i in range(jumlah_penumpang):
     print()
     
     # lanjutkan code dibawah ini
+# List to store passenger information
+penumpang = [1]
+
+# Input the number of passengers
+jumlah_penumpang = int(input("Jumlah penumpang: "))
+
+# Loop to gather information for each passenger
+for i in range(jumlah_penumpang):
+    print(f"Penumpang {i + 1}")
+    nama = input("Nama: ")
+    umur = int(input("Umur: "))
+    asal_planet = input("Asal planet: ")
     
+    print()  # Print a newline for better readability
+
+    # Create a dictionary for the passenger
+    passenger_info = {
+        'nama': nama,
+        'umur': umur,
+        'asal planet': asal_planet
+    }
+    
+    # Append the dictionary to the list
+    penumpang.append(passenger_info)
+
+# Print the list of dictionaries
 print(penumpang)
+
+
+
 

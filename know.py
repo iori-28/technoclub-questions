@@ -14,5 +14,15 @@ Output:
 """
 arr = range(1, 100)
 # lanjutkan code dibawah ini
+arr = range(1, 20)
+
+# Filter odd numbers using a for loop
+filtered_arr = []
+for x in arr:
+    if x % 2 != 0:  # Check if the number is odd
+        filtered_arr.append(x)
+
+print(filtered_arr)
+
 
 

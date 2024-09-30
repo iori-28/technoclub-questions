@@ -15,3 +15,6 @@ Output:
 angka = [4, 2, 1, 3, 5]
 
 # lanjutkan code dibawah ini
+angka_terurut = sorted(angka)
+
+print(angka_terurut)
